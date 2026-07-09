@@ -1,12 +1,6 @@
 window.onload = function(){
 
-    if(!sessionStorage.getItem("welcomeShown")){
-
-        alert("Welcome to SHOXZ! Find your perfect sneaker today.");
-
-        sessionStorage.setItem("welcomeShown", "true");
-
-    }
+    alert("👋 Welcome to SHOXZ!\n\nFind your perfect sneaker today.");
 
 };
 function recommendSneaker(){
@@ -59,4 +53,18 @@ function submitUserInfo() {
     document.getElementById("username").value = "";
     document.getElementById("email").value = "";
 
+}
+function checkout() {
+
+    if (cart.length === 0) {
+        alert("Your cart is empty.");
+        return;
+    }
+
+    alert("🎉 Thank you for shopping at SHOXZ!\n\nYour order has been placed successfully.");
+
+    cart = [];
+    localStorage.removeItem("cart");
+
+    location.href = "index.html";
 }
