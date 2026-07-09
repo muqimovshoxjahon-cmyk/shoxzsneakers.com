@@ -2280,3 +2280,32 @@ p a:hover {
     align-items:center;
 
 }
+/* Extend shop-grid system with rating + button (shared by shop & home pages) */
+.shop-grid .product-card .rating {
+    color: #f5b301;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.shop-grid .product-card a.btn {
+    display: inline-block;
+    background: #111;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 24px;
+    border-radius: 20px;
+    margin-top: 12px;
+    transition: 0.3s ease;
+}
+
+.shop-grid .product-card a.btn:hover {
+    background: #E63946;
+}
+/* Prevent legacy template rules from leaking into shop-grid on homepage */
+#body > ul.shop-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1200px;
+    width: auto;
+    margin: 50px auto;
+}
