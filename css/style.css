@@ -480,6 +480,8 @@ p a:hover {
 
 .newsletter h2{
     font-size:52px;
+    color:#ffffff !important;
+    font-weight:700;
     margin-bottom:20px;
 }
 
@@ -718,27 +720,19 @@ p a:hover {
 .bestseller{
     background:#f39c12;
 }
-.product-card a{
+.product-card .btn{
     display:inline-block;
-
     margin-top:18px;
-
     padding:12px 24px;
-
     background:#111;
-
     color:white;
-
     text-decoration:none;
-
     border-radius:30px;
-
     font-weight:bold;
-
     transition:.3s ease;
 }
 
-.product-card a:hover{
+.product-card .btn:hover{
     background:#E63946;
 }
 .shop-grid .product-card{
@@ -1762,8 +1756,8 @@ p a:hover {
 .function-info:hover {
     transform: translateY(-3px);
     transition: 0.3s ease;
-}/* ==========================
-   FEATURED PRODUCTS SECTION
+} 
+FEATURED PRODUCTS SECTION
 ========================== */
 
 .featured-products {
@@ -1805,7 +1799,8 @@ p a:hover {
     transform: scale(1.05);
 
 }
-
+/* ==========================
+  
 
 
 /* Product name */
