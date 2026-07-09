@@ -2190,32 +2190,6 @@ p a:hover {
     line-height:1.6;
 
 }
-/* ==========================
-   HOMEPAGE PRODUCT IMAGE FIX
-========================== */
-
-
-#body > ul li {
-
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-
-}
-
-
-/* Fixed image container size */
-
-#body > ul li a:first-child {
-
-    width:100%;
-    height:220px;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-}
 /* Extend shop-grid system with rating + button (shared by shop & home pages) */
 .shop-grid .product-card .rating {
     color: #f5b301;
