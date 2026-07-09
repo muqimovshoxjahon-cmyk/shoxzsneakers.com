@@ -1628,44 +1628,77 @@ p a:hover {
 
 }
 /* =========================
-   NEWS ARTICLE PAGE
+   NEWS ARTICLE DETAIL
 ========================= */
 
 .news-detail {
-    width: 80%;
-    max-width: 900px;
-    margin: 50px auto;
-    text-align: center;
-}
 
-.news-detail img {
-    width: 100%;
-    max-height: 500px;
-    object-fit: cover;
-    margin-bottom: 30px;
-}
+    width:960px;
+    margin:60px auto;
 
-.news-detail h2 {
-    font-size: 32px;
-    text-transform: uppercase;
-    margin-bottom: 15px;
-}
+    display:flex;
+    flex-direction:row;
 
-.news-detail .date {
-    color: #777;
-    font-size: 14px;
-    margin-bottom: 25px;
-}
+    align-items:center;
+    gap:50px;
 
-.news-detail p {
-    font-size: 16px;
-    line-height: 1.8;
-    text-align: left;
-    margin-bottom: 20px;
 }
 
 
-/* Back button */
+/* LEFT SIDE - IMAGE */
+
+.news-image {
+
+    width:450px;
+
+}
+
+
+.news-image img {
+
+    width:450px;
+    height:350px;
+    object-fit:cover;
+
+}
+
+
+/* RIGHT SIDE - TEXT */
+
+.news-text {
+
+    width:450px;
+    text-align:left;
+
+}
+
+
+.news-text h2 {
+
+    font-size:32px;
+    text-transform:uppercase;
+    margin-bottom:15px;
+
+}
+
+
+.news-text .date {
+
+    color:#888;
+    font-size:14px;
+    margin-bottom:20px;
+
+}
+
+
+.news-text p {
+
+    font-size:15px;
+    line-height:1.8;
+    margin-bottom:15px;
+
+}
+
 
 .back-news {
     display: inline-block;
@@ -1681,6 +1714,7 @@ p a:hover {
     background: #555;
 }
 
+
 /* =========================
    SHOXZ NEWS PAGE
 ========================= */
@@ -1693,9 +1727,9 @@ p a:hover {
 
 .news-card {
     display: flex;
-    margin-bottom: 45px;
-    padding-bottom: 40px;
-    border-bottom: 1px solid #ddd;
+    align-items: center;
+    width: 900px;
+    margin: 0 auto 50px;
 }
 
 
@@ -1703,46 +1737,46 @@ p a:hover {
     width: 350px;
     height: 220px;
     object-fit: cover;
-    margin-right: 35px;
+    margin-right: 40px;
 }
 
 
 .news-content {
+    width: 450px;
     text-align: left;
 }
 
 
 .news-content h2 {
     font-size: 26px;
-    color: #333;
     margin-bottom: 10px;
-    text-transform: uppercase;
+    color: #333;
 }
 
 
 .date {
     color: #888;
     font-size: 14px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 
 .news-content p {
-    color: #555;
     font-size: 14px;
-    line-height: 1.8;
+    line-height: 1.7;
+    color: #555;
 }
 
 
 .news-content a {
     display: inline-block;
     margin-top: 15px;
-    padding: 8px 20px;
-    background: #000;
-    color: #fff;
+    padding: 10px 25px;
+    background: #111;
+    color: white;
     text-decoration: none;
-    text-transform: uppercase;
     font-size: 12px;
+    text-transform: uppercase;
 }
 
 
