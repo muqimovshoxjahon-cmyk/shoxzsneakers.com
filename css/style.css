@@ -1829,39 +1829,6 @@ p a:hover {
     margin-top: 50px;
 }
 
-
-.featured-products > ul {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    padding: 0;
-    margin-top: 40px;
-    list-style: none;
-}
-
-
-/* ==========================
-   PRODUCT CARDS
-========================== */
-
-.featured-products li {
-
-    width: 280px;
-    background: #ffffff;
-
-    padding: 20px;
-
-    border-radius: 15px;
-
-    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
-
-    transition: 0.3s ease;
-
-    text-align: center;
-
-}
-
-
 /* Card hover effect */
 
 .featured-products li:hover {
