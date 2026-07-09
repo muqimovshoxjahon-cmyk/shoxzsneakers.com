@@ -2029,3 +2029,257 @@ p a:hover {
     margin-bottom: 15px;
 
 }
+/* ==============================
+   SHOXZ HOMEPAGE FIXES
+============================== */
+
+
+/* Recommendation Section */
+
+.recommendation {
+    width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+
+.recommendation h2 {
+    font-size: 30px;
+    margin-bottom:15px;
+}
+
+
+.recommendation select {
+
+    width:220px;
+
+    padding:12px;
+
+    border:2px solid #111;
+
+    border-radius:25px;
+
+    font-size:15px;
+
+    background:white;
+
+}
+
+
+.recommendation button {
+
+    background:#111;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 30px;
+
+    border-radius:25px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+
+.recommendation button:hover {
+
+    background:#E63946;
+
+}
+
+
+
+/* User Input Area */
+
+.user-form {
+
+    margin-top:30px;
+
+}
+
+
+.user-form input {
+
+
+    width:280px;
+
+    padding:12px 18px;
+
+    margin:10px;
+
+    border:2px solid #ddd;
+
+    border-radius:25px;
+
+    font-size:14px;
+
+    text-transform:none;
+
+}
+
+
+.user-form input:focus {
+
+    outline:none;
+
+    border-color:#E63946;
+
+}
+
+
+.user-form button {
+
+    background:#E63946;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 35px;
+
+    border-radius:25px;
+
+    cursor:pointer;
+
+}
+
+
+.user-form button:hover {
+
+    background:#111;
+
+}
+
+
+
+/* ==============================
+   FEATURED PRODUCT CARDS FIX
+============================== */
+
+
+.featured-products > ul {
+
+    width:900px;
+
+    margin:40px auto;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:25px;
+
+    padding:0;
+
+}
+
+
+
+.featured-products > ul li {
+
+
+    width:230px !important;
+
+    padding:15px;
+
+    border-radius:15px;
+
+    background:white;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.12);
+
+    transition:.3s;
+
+
+}
+
+
+
+.featured-products > ul li:hover {
+
+    transform:translateY(-8px);
+
+}
+
+
+
+.featured-products > ul li img {
+
+
+    width:180px !important;
+
+    height:180px !important;
+
+    object-fit:contain !important;
+
+    border-radius:10px;
+
+}
+
+
+.featured-products > ul li h3 {
+
+    font-size:18px;
+
+}
+
+
+.featured-products > ul li .price {
+
+    font-size:20px;
+
+}
+
+
+
+/* ==============================
+   FUNCTION DESCRIPTION BOX
+============================== */
+
+
+.code-description,
+.function-info {
+
+
+    width:600px;
+
+    margin:25px auto;
+
+    padding:20px;
+
+    background:#111;
+
+    color:white;
+
+    border-radius:12px;
+
+    text-align:left;
+
+}
+
+
+.code-description h4,
+.function-info h4 {
+
+    color:#E63946;
+
+    margin-bottom:8px;
+
+}
+
+
+.code-description p,
+.function-info p {
+
+    color:white;
+
+    line-height:1.6;
+
+}
