@@ -20,230 +20,429 @@
 
 </div>
 <body>
-	<div id="header">
-		<a href="index.html" class="logo">
-    <div class="logo-text">
-        <div class="brand-name">SHOXZ</div>
-        <div class="brand-subtitle">SNEAKERS</div>
-    </div>
-	</a>		
-		<ul id="navigation">
-    <li class="selected">
-        <a href="index.html">Home</a>
-    </li>
 
-    <li>
-        <a href="gallery.html">Shop</a>
-    </li>
+<div id="header">
 
-    <li>
-        <a href="about.html">About</a>
-    </li>
-
-    <li>
-        <a href="blog.html">News</a>
-    </li>
-
-    <li>
-        <a href="contact.html">Contact</a>
-    </li>
-
-    <li>
-        <a href="cart.html">Cart</a>
-    </li>
-		</ul>
-	</div>
-	<div id="body">
-
-    <div id="featured">
-        <img src="images/hero.jpg" alt="SHOXZ Sneakers Banner">
-
-		<section class="recommendation">
-
-    <h2>Find Your Perfect Sneaker</h2>
-
-    <p>Select your style and we will recommend a sneaker for you.</p>
-
-    <!-- Function Description -->
-    <div class="code-description">
-        <h4>JavaScript Function Used:</h4>
-        <p>
-            This function collects the user's input from the form fields
-            and displays a personalized response.
-        </p>
-
-        <h4>CSS Function Used:</h4>
-        <p>
-            This section uses CSS styling and hover effects to create
-            a more interactive user experience.
-        </p>
-    </div>
-
-
-    <select id="styleChoice">
-
-        <option value="streetwear">
-            Streetwear
-        </option>
-
-        <option value="sport">
-            Sport
-        </option>
-
-        <option value="classic">
-            Classic
-        </option>
-
-    </select>
-
-
-    <button onclick="recommendSneaker()">
-        Recommend
-    </button>
-
-
-    <h3 id="recommendationResult"></h3>
-    <div class="user-form">
-
-    <h2>Contact Information</h2>
-
-    <input type="text" id="username" placeholder="Enter your name">
-
-    <input type="email" id="email" placeholder="Enter your email">
-
-    <button onclick="submitUserInfo()">Submit</button>
-    
-    </section>
-
-        <div>
-            <h2>NEW COLLECTION 2026</h2>
-
-            <span>Experience premium sneakers designed for every lifestyle.</span>
-            <span>Discover Nike, Adidas, New Balance, Puma & more.</span>
-            <span>Walk with confidence. Wear SHOXZ.</span>
-
-            <a href="gallery.html" class="more">SHOP NOW</a>
+    <a href="index.html" class="logo">
+        <div class="logo-text">
+            <div class="brand-name">SHOXZ</div>
+            <div class="brand-subtitle">SNEAKERS</div>
         </div>
-        </div>
-	
-	<section class="featured-products">
+    </a>
 
-    <h2>Featured Sneakers</h2>
+    <ul id="navigation">
 
-    <p>
-        Discover our most popular sneakers, carefully selected
-        for comfort, performance, and everyday style.
-    </p>
+        <li class="selected">
+            <a href="index.html">Home</a>
+        </li>
 
-	</section>
-   
+        <li>
+            <a href="gallery.html">Shop</a>
+        </li>
 
-    <div class="function-info">
-        <h4>💻 JavaScript Function</h4>
-        <p>
-            This function displays product information dynamically
-            when the user clicks the button.
-        </p>
+        <li>
+            <a href="about.html">About</a>
+        </li>
 
-        <h4>🎨 CSS Function</h4>
-        <p>
-            This product card uses CSS hover effects to create
-            smooth animations and improve user interaction.
-        </p>
-    </div>
+        <li>
+            <a href="blog.html">News</a>
+        </li>
+
+        <li>
+            <a href="contact.html">Contact</a>
+        </li>
+
+        <li>
+            <a href="cart.html">Cart</a>
+        </li>
+
+    </ul>
 
 </div>
-    
 
-    <ul>
 
-    <li>
-        <a href="gallery.html">
-            <img src="images/nike-airmax1.jpg" alt="Nike Air Max">
+<div id="body">
+
+
+<!-- HERO SECTION -->
+
+<div id="featured">
+
+    <img src="images/hero.jpg" alt="SHOXZ Sneakers Banner">
+
+
+    <div>
+        <h2>NEW COLLECTION 2026</h2>
+
+        <span>
+            Experience premium sneakers designed for every lifestyle.
+        </span>
+
+        <span>
+            Discover Nike, Adidas, New Balance, Puma & more.
+        </span>
+
+        <span>
+            Walk with confidence. Wear SHOXZ.
+        </span>
+
+
+        <a href="gallery.html" class="more">
+            SHOP NOW
         </a>
 
-        <h3>Nike Air Max</h3>
+    </div>
 
-        <p class="rating">★★★★★</p>
 
-        <p class="price">¥18,900</p>
+</div>
 
-        <a href="gallery.html" class="btn">View Details</a>
-    </li>
 
-    <li>
-        <a href="gallery.html">
-            <img src="images/adidas-campus.jpg" alt="Adidas Campus">
-        </a>
 
-        <h3>Adidas Campus 00s</h3>
+<!-- RECOMMENDATION FUNCTION -->
 
-        <p class="rating">★★★★☆</p>
+<section class="recommendation">
 
-        <p class="price">¥15,900</p>
 
-        <a href="gallery.html" class="btn">View Details</a>
-    </li>
+<h2>Find Your Perfect Sneaker</h2>
 
-    <li>
-        <a href="gallery.html">
-            <img src="images/newbalance90601.jpg" alt="New Balance 9060">
-        </a>
 
-        <h3>New Balance 9060</h3>
+<p>
+Select your style and we will recommend a sneaker for you.
+</p>
 
-        <p class="rating">★★★★★</p>
 
-        <p class="price">¥22,500</p>
 
-        <a href="gallery.html" class="btn">View Details</a>
-    </li>
+<div class="code-description">
+
+<h4>JavaScript Function Used:</h4>
+
+<p>
+This function collects the user's input from the selection menu
+and recommends a suitable sneaker based on their preference.
+</p>
+
+
+<h4>CSS Function Used:</h4>
+
+<p>
+This section uses CSS styling and hover effects to create
+a more interactive user experience.
+</p>
+
+</div>
+
+
+
+<select id="styleChoice">
+
+<option value="streetwear">
+Streetwear
+</option>
+
+<option value="sport">
+Sport
+</option>
+
+<option value="classic">
+Classic
+</option>
+
+</select>
+
+
+
+<button onclick="recommendSneaker()">
+Recommend
+</button>
+
+
+
+<h3 id="recommendationResult"></h3>
+
+
+
+<!-- USER INPUT FUNCTION -->
+
+<div class="user-form">
+
+<h2>Contact Information</h2>
+
+
+<input 
+type="text" 
+id="username" 
+placeholder="Enter your name"
+>
+
+
+<input 
+type="email" 
+id="email" 
+placeholder="Enter your email"
+>
+
+
+<button onclick="submitUserInfo()">
+Submit
+</button>
+
+
+</div>
+
+
+</section>
+<!-- FEATURED PRODUCTS -->
+
+<section class="featured-products">
+
+
+<h2>
+Featured Sneakers
+</h2>
+
+
+<p>
+Discover our most popular sneakers, carefully selected
+for comfort, performance, and everyday style.
+</p>
+
+
+
+<div class="function-info">
+
+
+<h4>
+💻 JavaScript Function
+</h4>
+
+
+<p>
+This function displays product information dynamically
+when the user clicks the button.
+</p>
+
+
+
+<h4>
+🎨 CSS Function
+</h4>
+
+
+<p>
+This product card uses CSS hover effects to create
+smooth animations and improve user interaction.
+</p>
+
+
+</div>
+
+
+
+
+<ul>
+
+
+<li>
+
+<a href="gallery.html">
+
+<img src="images/nike-airmax1.jpg" alt="Nike Air Max">
+
+</a>
+
+
+<h3>
+Nike Air Max
+</h3>
+
+
+<p class="rating">
+★★★★★
+</p>
+
+
+<p class="price">
+¥18,900
+</p>
+
+
+<a href="gallery.html" class="btn">
+View Details
+</a>
+
+
+</li>
+
+
+
+<li>
+
+<a href="gallery.html">
+
+<img src="images/adidas-campus.jpg" alt="Adidas Campus">
+
+</a>
+
+
+<h3>
+Adidas Campus 00s
+</h3>
+
+
+<p class="rating">
+★★★★☆
+</p>
+
+
+<p class="price">
+¥15,900
+</p>
+
+
+<a href="gallery.html" class="btn">
+View Details
+</a>
+
+
+</li>
+
+
+
+<li>
+
+<a href="gallery.html">
+
+<img src="images/newbalance90601.jpg" alt="New Balance 9060">
+
+</a>
+
+
+<h3>
+New Balance 9060
+</h3>
+
+
+<p class="rating">
+★★★★★
+</p>
+
+
+<p class="price">
+¥22,500
+</p>
+
+
+<a href="gallery.html" class="btn">
+View Details
+</a>
+
+
+</li>
+
 
 </ul>
 
-</div>
+
+</section>
+
+
+
+
+
+<!-- WHY CHOOSE SHOXZ -->
 
 
 <section class="why-us">
 
-    <h2>Why Choose SHOXZ?</h2>
 
-    <div class="features">
+<h2>
+Why Choose SHOXZ?
+</h2>
 
-        <div class="feature-card">
-            <h3>🚚 Free Shipping</h3>
-            <p>Enjoy free shipping on all orders over ¥10,000 anywhere in Japan.</p>
-        </div>
 
-        <div class="feature-card">
-            <h3>✔ Authentic Products</h3>
-            <p>Every sneaker is 100% authentic and sourced from trusted brands.</p>
-        </div>
 
-        <div class="feature-card">
-            <h3>🔄 Easy Returns</h3>
-            <p>Not satisfied? Return your order within 30 days with no hassle.</p>
-        </div>
+<div class="features">
 
-    </div>
+
+<div class="feature-card">
+
+<h3>
+🚚 Free Shipping
+</h3>
+
+<p>
+Enjoy free shipping on all orders over ¥10,000 anywhere in Japan.
+</p>
+
+</div>
+
+
+
+
+<div class="feature-card">
+
+<h3>
+✔ Authentic Products
+</h3>
+
+<p>
+Every sneaker is 100% authentic and sourced from trusted brands.
+</p>
+
+</div>
+
+
+
+
+<div class="feature-card">
+
+<h3>
+🔄 Easy Returns
+</h3>
+
+<p>
+Not satisfied? Return your order within 30 days with no hassle.
+</p>
+
+</div>
+
+
+
+</div>
+
 
 </section>
+
+
+
+
+
+<!-- NEWSLETTER -->
+
 
 <section class="newsletter">
 
-    <h2>Stay Updated</h2>
 
-    <p>
-        Get the latest sneaker releases, exclusive discounts,
-        and SHOXZ news delivered to your inbox.
-    </p>
+<h2>
+Stay Updated
+</h2>
 
-    <a href="contact.html" class="newsletter-btn">
-        Join Now
-    </a>
+
+<p>
+Get the latest sneaker releases, exclusive discounts,
+and SHOXZ news delivered to your inbox.
+</p>
+
+
+
+<a href="contact.html" class="newsletter-btn">
+Join Now
+</a>
+
 
 </section>
-	<footer class="my-footer">
+
+<footer class="my-footer">
 
     <p>
         &copy; 2026 SHOXZ Sneakers | Student ID: 25224538 | Name: Mukimov Shohjakhon Muhammadali Ugli
