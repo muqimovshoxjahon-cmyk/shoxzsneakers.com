@@ -41,3 +41,22 @@ function recommendSneaker(){
 
 
 }
+function submitUserInfo() {
+
+    let username = document.getElementById("username").value;
+    let email = document.getElementById("email").value;
+
+    if (username === "" || email === "") {
+
+        alert("Please enter both your name and email.");
+        return;
+
+    }
+
+    alert("Thank you, " + username + "! Your information has been submitted.");
+
+    // Optional: Clear the input fields after submission
+    document.getElementById("username").value = "";
+    document.getElementById("email").value = "";
+
+}
