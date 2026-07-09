@@ -1783,3 +1783,41 @@ p a:hover {
 .news-content a:hover {
     background: #555;
 }
+.code-description {
+    margin-top: 20px;
+    padding: 15px;
+    background: #222;
+    color: white;
+    border-left: 5px solid #ffcc00;
+    border-radius: 8px;
+}
+
+.code-description:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+.function-info {
+    margin-top: 15px;
+    padding: 12px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.function-info h4 {
+    margin-bottom: 5px;
+    color: #111;
+}
+
+.function-info p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+
+/* Hover effect for explanation box */
+.function-info:hover {
+    transform: translateY(-3px);
+    transition: 0.3s ease;
+}
