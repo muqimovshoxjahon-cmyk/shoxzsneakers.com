@@ -2063,159 +2063,40 @@ p a:hover {
     background:#111;
 
 }
-
-
-
-/* ==============================
-   FEATURED PRODUCT CARDS FIX
-============================== */
-
-
-.featured-products > ul {
-
-    width:900px;
-
-    margin:40px auto;
-
-    display:flex;
-
-    justify-content:center;
-
-    gap:25px;
-
+.featured-products .shop-grid{
+    max-width:1200px;
+    margin:50px auto;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
     padding:0;
-
+    list-style:none;
 }
 
-
-
-.featured-products > ul li {
-
-
-    width:230px !important;
-
-    padding:15px;
-
+.featured-products .product-card{
+    background:#fff;
     border-radius:15px;
-
-    background:white;
-
-    box-shadow:0 8px 20px rgba(0,0,0,.12);
-
-    transition:.3s;
-
-
-}
-
-
-
-.featured-products > ul li:hover {
-
-    transform:translateY(-8px);
-
-}
-
-
-
-.featured-products > ul li img {
-
-
-    width:180px !important;
-
-    height:180px !important;
-
-    object-fit:contain !important;
-
-    border-radius:10px;
-
-}
-
-
-.featured-products > ul li h3 {
-
-    font-size:18px;
-
-}
-
-
-.featured-products > ul li .price {
-
-    font-size:20px;
-
-}
-
-
-
-/* ==============================
-   FUNCTION DESCRIPTION BOX
-============================== */
-
-
-.code-description,
-.function-info {
-
-
-    width:600px;
-
-    margin:25px auto;
-
     padding:20px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,.12);
+    transition:.3s ease;
+}
 
-    background:#111;
+.featured-products .product-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 35px rgba(0,0,0,.18);
+}
 
-    color:white;
-
+.featured-products .product-card img{
+    width:100%;
+    aspect-ratio:1/1;
+    object-fit:cover;
     border-radius:12px;
-
-    text-align:left;
-
+    display:block;
+    margin:0;
+    transition:.4s;
 }
 
-
-.code-description h4,
-.function-info h4 {
-
-    color:#E63946;
-
-    margin-bottom:8px;
-
-}
-
-
-.code-description p,
-.function-info p {
-
-    color:white;
-
-    line-height:1.6;
-
-}
-/* Extend shop-grid system with rating + button (shared by shop & home pages) */
-.shop-grid .product-card .rating {
-    color: #f5b301;
-    font-size: 18px;
-    margin: 5px 0;
-}
-
-.shop-grid .product-card a.btn {
-    display: inline-block;
-    background: #111;
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 24px;
-    border-radius: 20px;
-    margin-top: 12px;
-    transition: 0.3s ease;
-}
-
-.shop-grid .product-card a.btn:hover {
-    background: #E63946;
-}
-/* Prevent legacy template rules from leaking into shop-grid on homepage */
-#body > ul.shop-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    max-width: 1200px;
-    width: auto;
-    margin: 50px auto;
+.featured-products .product-card:hover img{
+    transform:scale(1.05);
 }
