@@ -54,17 +54,3 @@ function submitUserInfo() {
     document.getElementById("email").value = "";
 
 }
-function checkout() {
-
-    if (cart.length === 0) {
-        alert("Your cart is empty.");
-        return;
-    }
-
-    alert("🎉 Thank you for shopping at SHOXZ!\n\nYour order has been placed successfully.");
-
-    cart = [];
-    localStorage.removeItem("cart");
-
-    location.href = "index.html";
-}

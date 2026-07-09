@@ -171,3 +171,12 @@ minusButtons.forEach(button => {
 });
 
 });
+function checkout() {
+
+    alert("🎉 Thank you for shopping at SHOXZ!\n\nYour order has been placed successfully!");
+
+    localStorage.removeItem("cart");
+
+    location.reload();
+
+}
